@@ -1,4 +1,15 @@
 import CategoryItem from "./CategoryItem";
+import six from "../assets/six.jpg"
+import seven from "../assets/seven.jpg"
+import three from "../assets/three.jpg"
+import four from "../assets/four.jpg"
+import five from "../assets/five.jpg"
+import Image11 from "../assets/Image11.jpg"
+import Image9 from "../assets/Image9.jpg"
+import Image7 from "../assets/Image7.jpg"
+
+
+
 
 const CategoriesSection = () => {
   const designers = [
@@ -15,14 +26,14 @@ const CategoriesSection = () => {
         <div className="max-w-screen-xl mx-auto flex py-6 lg:py-10 min-h-[400px] lg:h-[50rem] gap-4 lg:gap-8 w-full lg:w-auto">
           {/* column 1 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["five.jpg", "four.jpg"].map((item) => (
+            {[five, four].map((item) => (
               <div
                 key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                   src={`../assets/${item}`}
+                   src={`${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -32,14 +43,14 @@ const CategoriesSection = () => {
 
           {/* column 2 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["three.jpg", "Image11.jpg"].map((item) => (
+            {[three, Image11].map((item) => (
               <div
                 key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                  src={`../assets/${item}`}
+                  src={`${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -63,14 +74,14 @@ const CategoriesSection = () => {
         <div className="max-w-screen-xl mx-auto flex py-6 lg:py-10 min-h-[400px] lg:h-[50rem] gap-4 lg:gap-8 w-full lg:w-auto">
           {/* column 1 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["six.jpg", "seven.jpg"].map((item) => (
+            {[six, seven].map((item) => (
               <div
                 key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                  src={`../assets/${item}`}
+                     src={`${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -80,14 +91,14 @@ const CategoriesSection = () => {
 
           {/* column 2 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["Image7.jpg", "Image9.jpg"].map((item) => (
+            {[Image7,Image9].map((item) => (
               <div
                 key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                  src={`../assets/${item}`}
+                     src={`${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
