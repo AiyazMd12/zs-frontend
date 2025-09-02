@@ -9,6 +9,8 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "declaration": false,
+  "compilerOptions": {
+    "declaration": false
+  },
  
 }
