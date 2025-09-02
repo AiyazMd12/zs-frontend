@@ -18,7 +18,7 @@ const FourSectionLayout = () => {
             <article key={id} className="group">
               <div className="relative overflow-hidden rounded">
                 <img
-                   src={`/src/assets/${thumbnail}`}
+                   src={`${thumbnail}`}
                   alt={title}
                   className="w-full h-80 sm:h-96 object-cover object-top  /* keep faces visible */
              transition-transform duration-300 group-hover:scale-105"
