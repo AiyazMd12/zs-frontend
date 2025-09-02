@@ -156,7 +156,7 @@ const WomensWear = () => {
               <div className="relative">
                 <div className="h-60">
                   <img
-                    src="https://images.unsplash.com/photo-1566479179817-c0ef7c0dc9ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1551803091-e20673f15770?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                     alt="Accessories"
                     className="w-full h-full object-cover rounded-lg sm:rounded-xl"
                   />
