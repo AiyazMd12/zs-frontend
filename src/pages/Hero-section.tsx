@@ -1,5 +1,6 @@
-import heroImage from '../assets/banner1.jpg';
-
+// import heroImage from '../assets/banner1.jpg';
+const heroImage =
+  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80";
 const HeroSection = () => (
   <div className="bg-[#F7F4ED]">
     <section
