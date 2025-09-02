@@ -64,7 +64,7 @@ const CategoriesSection = () => {
           <div className="flex justify-center items-center w-full">
             <CategoryItem
               categoryTitle="Special Edition"
-              image="Image11.jpg"
+              image={Image11}
               link="special-edition"
             />
           </div>
