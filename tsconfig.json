@@ -1,5 +1,6 @@
 {
-  "include": [],
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"],
   "references": [
     {
       "path": "./tsconfig.app.json"
@@ -9,7 +10,5 @@
     }
   ],
   "declaration": false,
-  {
-  "exclude": ["node_modules", "dist"]
-}
+ 
 }
