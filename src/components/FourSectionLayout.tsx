@@ -1,9 +1,13 @@
+import six from "../assets/six.jpg"
+import two from "../assets/two.jpg"
+import three from "../assets/three.jpg"
+import four from "../assets/four.jpg"
 const FourSectionLayout = () => {
   const sectionDetails = [
-    { id: 5, title: "Men's Accessories Guide", thumbnail: "six.jpg" },
-    { id: 6, title: "Women's Footwear Collection", thumbnail: "two.jpg" },
-    { id: 7, title: "Summer Hats and Scarves", thumbnail: "three.jpg" },
-    { id: 8, title: "Denim Styling Tips", thumbnail: "four.jpg" },
+    { id: 5, title: "Men's Accessories Guide", thumbnail: six },
+    { id: 6, title: "Women's Footwear Collection", thumbnail: two },
+    { id: 7, title: "Summer Hats and Scarves", thumbnail: three },
+    { id: 8, title: "Denim Styling Tips", thumbnail: four },
   ];
 
   return (
