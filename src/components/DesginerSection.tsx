@@ -1,7 +1,7 @@
 // DesignerShowcase.jsx
 import React from 'react';
 import FourSectionLayout from './FourSectionLayout';
-
+import three from "../assets/three.jpg"
 /* ----------------------------------------------
    50 / 50 split
    • mobile  : stacked
@@ -39,7 +39,7 @@ const SplitSection = ({ image, heading, body, reverse = false }) => (
 const DesignerShowcase = () => (
   <div className="bg-[#f7f4ed]">
     <SplitSection
-      image="/src/images/three.jpg"
+      image={three}
       heading="Crafting Your Signature Summer Look"
       body="Discover how lightweight fabrics, bold patterns and statement accessories can elevate warm-weather outfits. From breathable linens to vibrant prints, learn the art of combining comfort with unmistakable style."
     />
@@ -48,7 +48,7 @@ const DesignerShowcase = () => (
 
     <SplitSection
       reverse
-      image="/src/images/three.jpg"
+       image={three}
       heading="Modern Festive Essentials"
       body="From intricately embroidered sherwanis to contemporary silhouettes, explore designs that blend heritage with innovation. Perfect your festive wardrobe with curated pieces that speak luxury and elegance."
     />
