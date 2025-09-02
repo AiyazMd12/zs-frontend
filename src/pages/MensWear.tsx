@@ -173,7 +173,7 @@ const MensWear = () => {
               <div className="relative">
                 <div className="h-80">
                   <img
-                    src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                     alt="Accessories"
                     className="w-full h-full object-cover rounded-lg sm:rounded-xl"
                   />
