@@ -8,5 +8,8 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "declaration": false
+  "declaration": false,
+  {
+  "exclude": ["node_modules", "dist"]
+}
 }
