@@ -125,7 +125,7 @@ const MensWear = () => {
               <div className="relative">
                 <div className="h-80">
                   <img
-                    src="https://images.unsplash.com/photo-1521336575826-9fcf6f285e0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                     alt="Business Suits"
                     className="w-full h-full object-cover rounded-lg sm:rounded-xl"
                   />
