@@ -1,4 +1,4 @@
-import heroImage from '../images/banner1.jpg';
+import heroImage from '../assets/banner1.jpg';
 
 const HeroSection = () => (
   <div className="bg-[#F7F4ED]">
