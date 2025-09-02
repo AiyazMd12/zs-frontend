@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex flex-wrap justify-center gap-8">
           <Link to="/MensWear"   className="text-sm sm:text-base navTab">MENSWEAR</Link>
           <Link to="/WomensWear" className="text-sm sm:text-base navTab">WOMENSWEAR</Link>
-          <Link to="/HairStyish" className="text-sm sm:text-base navTab">HAIRSTYLISH</Link>
+          {/* <Link to="/HairStyish" className="text-sm sm:text-base navTab">HAIRSTYLISH</Link> */}
         </div>
 
         {/* uncomment if you want a mobile menu icon */}
