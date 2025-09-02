@@ -15,14 +15,14 @@ const CategoriesSection = () => {
         <div className="max-w-screen-xl mx-auto flex py-6 lg:py-10 min-h-[400px] lg:h-[50rem] gap-4 lg:gap-8 w-full lg:w-auto">
           {/* column 1 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["five.jpg", "four.jpg"].map((src) => (
+            {["five.jpg", "four.jpg"].map((item) => (
               <div
-                key={src}
+                key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                   src={`/src/assets/${src}`}
+                   src={`/src/assets/${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -32,14 +32,14 @@ const CategoriesSection = () => {
 
           {/* column 2 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["three.jpg", "Image11.jpg"].map((src) => (
+            {["three.jpg", "Image11.jpg"].map((item) => (
               <div
-                key={src}
+                key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                  src={`/src/assets/${src}`}
+                  src={`/src/assets/${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -63,14 +63,14 @@ const CategoriesSection = () => {
         <div className="max-w-screen-xl mx-auto flex py-6 lg:py-10 min-h-[400px] lg:h-[50rem] gap-4 lg:gap-8 w-full lg:w-auto">
           {/* column 1 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["six.jpg", "seven.jpg"].map((src) => (
+            {["six.jpg", "seven.jpg"].map((item) => (
               <div
-                key={src}
+                key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                  src={`/src/assets/${src}`}
+                  src={`/src/assets/${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -80,14 +80,14 @@ const CategoriesSection = () => {
 
           {/* column 2 */}
           <div className="flex flex-col gap-4 lg:gap-8 w-1/2">
-            {["Image7.jpg", "Image9.jpg"].map((src) => (
+            {["Image7.jpg", "Image9.jpg"].map((item) => (
               <div
-                key={src}
+                key={item}
                 className="flex items-center justify-center h-[180px] sm:h-[220px] lg:h-[300px] w-full
                            bg-white rounded-xl shadow"
               >
                 <img
-                  src={`/src/assets/${src}`}
+                  src={`/src/assets/${item}`}
                   alt={designers[1].name}
                   className="w-full h-full object-cover rounded-xl"
                 />
